@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "crud.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bc" : "npx tailwindcss@3 -i ./views/input.css -o ./views/output.css --watch"
   },
   "keywords": [],
   "author": "",
